@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h4>Print the numbers 0-30, one number per line.</h4>
+    <script>
+      for (let i = 0; i <= 30; i++) {
+        document.write(i + "<br>");
+      }
+    </script>
+    <h4>Print only the even values from 0-40, one number per line.</h4>
+    <script>
+      for (let i = 0; i <= 40; i += 2) {
+        document.write(i + "<br>");
+      }
+    </script>
+    <h4>
+      Print the numbers 40 to 10 in descending order, but only if the numbers
+      are multiples of 3
+    </h4>
+    <script>
+      for (let i = 40; i >= 10; i--) {
+        if (i % 3 == 0) {
+          document.write(i + "<br>");
+        }
+      }
+    </script>
+  </body>
+  <script src="index.js"></script>
+</html>
